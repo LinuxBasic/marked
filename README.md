@@ -371,6 +371,10 @@ cd marked/
 node test
 ```
 
+### Known Issues
+
+* Elements created currently trigger the react-warning-keys warning as of React 0.15.1: ["Warning: Each child in an array or iterator should have a unique "key" prop."](https://fb.me/react-warning-keys)
+
 ### Contribution and License Agreement
 
 If you contribute code to this project, you are implicitly allowing your code
